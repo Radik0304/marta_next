@@ -15,6 +15,10 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  //добавление изображений со сторонних хостов
+  images: {
+    remotePatterns: [{protocol: 'https', hostname: 'webcademy.ru'}]
+  }
 };
 
 export default nextConfig;
